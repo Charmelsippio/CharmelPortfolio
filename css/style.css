@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+body {
+  margin: 0 auto; }
+
+nav li {
+  display: inline;
+  padding-right: 20px; }
+  nav li a {
+    color: black;
+    text-decoration: none; }
+    nav li a:hover {
+      border-bottom: 1px solid black; }
+
+#about, #projects, #experience, #contact {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 10px; }
+
+#contact {
+  margin-bottom: 0px; }
+
+.parallax-window {
+  min-height: 300px;
+  background: transparent; }
+
+#about_bg, #projects_bg, #exp_bg, #contact_bg {
+  width: 100vw;
+  height: 30vh; }
+  #about_bg p, #projects_bg p, #exp_bg p, #contact_bg p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 100pt;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px auto;
+    width: 500px;
+    height: 180px;
+    padding-top: 70px; }
+
+#headshot {
+  float: left;
+  background-image: url("./images/headshot.jpg");
+  height: 400px;
+  width: 400px;
+  border: 1px solid red;
+  border-radius: 100px; }
+
+/*# sourceMappingURL=style.css.map */
