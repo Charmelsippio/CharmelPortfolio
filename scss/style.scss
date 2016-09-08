@@ -1,16 +1,57 @@
+
+/////////////// MEDIA QUERIES ////////////////
+
+$break-mobile: 400px;
+$break-phablet: 550px;
+$break-tablet: 750px;
+$break-desktop: 1000px;
+$break-desktopHD: 1200px;
+
+@mixin media_breakA {
+  @media screen and (max-width: $break-phablet){@content}
+}
+
+@mixin media_breakB {
+    @media screen and (max-width: $break-mobile){@content}
+}
+
+@mixin media_breakC {
+  @media screen and (max-width: $break-desktop){@content}
+}
+
+@mixin media_breakD {
+    @media screen and (max-width: $break-desktopHD){@content}
+}
+
+
+//////////////////// STYLE ////////////////////////
+
 body {
   background: #9e005b;
   margin: 0 auto;
   color: white;
+  width: 100%;
+  height: 100%;
 }
 
 .site_bgrd {
   width: 97%;
   height: 3500px;
   background: white;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 13px;
   margin-bottom: 13px;
+
+  @include media_breakA { //phablet
+    height: 6000px;
+    margin-left: 8px;
+    margin-top: 6px;
+  }
+
+  @include media_breakB { //mobile
+    height: 7000px;
+  }
+
 }
 
 .welcome {
@@ -20,14 +61,23 @@ body {
   position: fixed;
   background: white;
   border-top: 13px solid #9e005b;
-  // z-index: 20px;
-  // border-bottom: 3px solid #EAE9E7;
 
   #header {
     padding-left: 400px;
     padding-top: 100px;
-    // border-bottom: 3px solid #EAE9E7;
+  
+  @include media_breakA { //phablet
+    padding-left: 80px;
   }
+
+  }
+
+  @include media_breakA { //phablet
+    height: 301px;
+
+  }
+
+
 }
 
 .navi_div {
@@ -35,25 +85,36 @@ body {
   border-top: 2px solid #EAE9E7;
   width: 80%;
   margin-left: 120px;
-}
 
-nav {
-  width: 78%;
-  height: 55px;
-  background: white;
-  margin: 0;
-  padding-left: 330px;
-  padding-top: 25px;
+  nav {
+    width: 78%;
+    height: 55px;
+    background: white;
+    margin: 0;
+    padding-left: 330px;
+    padding-top: 25px;
 
-  ul {
-    list-style: none;
+    ul {
+      list-style: none;
+    }
+
+      li {
+        display: inline-block;
+        padding-left: 15px;
+      }
+    @include media_breakA { //phablet
+      width: 73%;
+      padding-left: 50px;
+    }
   }
 
-    li {
-      display: inline-block;
-      padding-left: 15px;
-    }
+  @include media_breakA {
+    margin-left: 50px;
+    width: 50%;
+  }
 }
+
+
 
 
 // about section

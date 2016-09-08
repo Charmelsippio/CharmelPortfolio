@@ -1,15 +1,25 @@
 body {
   background: #9e005b;
   margin: 0 auto;
-  color: white; }
+  color: white;
+  width: 100%;
+  height: 100%; }
 
 .site_bgrd {
   width: 97%;
   height: 3500px;
   background: white;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 13px;
   margin-bottom: 13px; }
+  @media screen and (max-width: 550px) {
+    .site_bgrd {
+      height: 6000px;
+      margin-left: 8px;
+      margin-top: 6px; } }
+  @media screen and (max-width: 400px) {
+    .site_bgrd {
+      height: 7000px; } }
 
 .welcome {
   top: 0;
@@ -21,25 +31,38 @@ body {
   .welcome #header {
     padding-left: 400px;
     padding-top: 100px; }
+    @media screen and (max-width: 550px) {
+      .welcome #header {
+        padding-left: 80px; } }
+  @media screen and (max-width: 550px) {
+    .welcome {
+      height: 301px; } }
 
 .navi_div {
   border-bottom: 2px solid #EAE9E7;
   border-top: 2px solid #EAE9E7;
   width: 80%;
   margin-left: 120px; }
-
-nav {
-  width: 78%;
-  height: 55px;
-  background: white;
-  margin: 0;
-  padding-left: 330px;
-  padding-top: 25px; }
-  nav ul {
-    list-style: none; }
-  nav li {
-    display: inline-block;
-    padding-left: 15px; }
+  .navi_div nav {
+    width: 78%;
+    height: 55px;
+    background: white;
+    margin: 0;
+    padding-left: 330px;
+    padding-top: 25px; }
+    .navi_div nav ul {
+      list-style: none; }
+    .navi_div nav li {
+      display: inline-block;
+      padding-left: 15px; }
+    @media screen and (max-width: 550px) {
+      .navi_div nav {
+        width: 73%;
+        padding-left: 50px; } }
+  @media screen and (max-width: 550px) {
+    .navi_div {
+      margin-left: 50px;
+      width: 50%; } }
 
 #top {
   padding-top: 300px; }
