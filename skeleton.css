@@ -31,7 +31,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1255px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -302,7 +302,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  /*margin-bottom: 1rem; }*/
 
 
 /* Code
@@ -325,7 +325,7 @@ pre > code {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
-  padding: 12px 15px;
+  padding: 18px 15px;
   text-align: left;
   border-bottom: 1px solid #EAE9E7; }
 th:first-child,
@@ -378,7 +378,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 2px solid #E1E1E1; }
 
 
 /* Clearing

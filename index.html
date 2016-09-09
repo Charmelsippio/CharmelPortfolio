@@ -3,119 +3,131 @@
 <head>
   <meta charset="utf-8">
   <title>Charmel Sippio Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="skeleton.css">
+  
 </head>
-<body>
-  <div class="site_bgrd">
-      <div class="twelve columns" class="bgrd">
-        <div class="welcome"><h1 id="header">Charmel L. Sippio</h1>
-        <div class="navi_div">
-        <nav>
-          <ul>
-            <li class="accordion"><a href="#about">About</a></li>
-            <li><a href="#projects"> Projects</a></li>
-            <li><a href="#experience"> Experience</a></li>
-            <li><a href="#contact"> Contact</a></li>
-          </ul>
-        </nav>
-        </div>
-        </div> <!-- end welcome -->
+  <body>
+  <nav class="twelve columns" id="welcome">
+    <h1>Charmel L. Sippio</h1>
+    <ul>
+      <li><a href="#about"> About</a></li>
+      <li><a href="#projects"> Projects</a></li>
+      <li><a href="#experience"> Experience</a></li>
+      <li><a href="#contact"> Contact</a></li>
+    </ul>
+  </nav>
+    <div class="container" id="wrapper">
+      <div class="row">
 
-        <div class="twelve columns" class="panel" id="top">
-          <div class="five columns" name="about" id="about">
-            <img src="images/headshot.jpg" width="250" height="250">
-          </div>
-          <div class="seven columns" id="details">
-            <p id="info"> My name is Charmel Sippio a Philadelphia based digital project/product manager and junior web developer. I have a passion for creating beautiful, intuitive, and highly crafted solutions combining a considered approach with emerging technologies. I have wide ranging experience in consulting, communications, health care, and marketing that I can leverage to help any company develop client-focused digital solutions, from web and mobile design through to large scale interactive installations. My portfolio is a mix of work created independently and as part of various teams.</p>
-          </div>
-
-        </div>
-
-        <div name="projects" id="spacer"> <p> </p> </div>
-
-        <div class="twelve columns" id="prj_panel">
-          <div class="five columns" id="projects">
-            <h3 id="tags">Emoji Symphony</h3>
-          </div>
-          <div class="seven columns">
-            <p id="prj_info"> Emoji Symphony is a creative music application, in JavaScript, that records a user’s key inputs and transforms them into a song. The application is targeted at capturing the hearts and minds of the Twitter and BuzzFeed generation. Built using only JavaScript. Created with <a href="https://rohini315.github.io">Ro Rudrua</a>.</p><br>
-            <div id="prj_img"><a href="https://emojisymphony.herokuapp.com/"><img src="images/emoji_symphony.png" width="300" height="198"></a></div>
-          </div>
-        </div>
-
-
-        <div class="twelve columns" id="prj_panel">
-          <div class="five columns" id="projects">
-            <h3 id="tags">Jukebox</h3>
-          </div>
-          <div class="seven columns">
-            <p id="prj_info"> This Jukebox was created to invoke nostalgia. It was built using only object-oriented JavaScriptand designed with an 80’s style boombox and has a built-in 90’s mixtape.</p>
-            <div id="prj_img"><a href="https://charmelsippio.github.io/JS_Jukebox/"><img src="images/jukebox.png" width="300" height="163"></a></div>
-          </div>
-        </div>
-
-        <div class="twelve columns" id="exp_panel">
-          <div class="five columns" id="projects">
-            <h3 id="tags">Ladies HQ</h3>
-          </div>
-          <div class="seven columns">
-            <p id="prj_info"> Ladies HQ is a women-centric employment concept website focused on a holistic approach to career development and skill building using Ruby and Sinatra. Created with <a href="http://cendavis.com/">Camille Davis</a>.</p>
-            <div id="prj_img"><a href="https://careerbuilder.herokuapp.com/"><img src="images/ladies_hq.png" width="350" height="187"></a></div>
-          </div>
-        </div>
-
-        <div name="experience" id="spacer2"><p> </p> </div>
-
-
-        <div class="twelve columns" id="exp_panel">
-          <div class="five columns" id="experience">
-            <h5 id="jobs2">Programming</h5>
-              <table id="skills">
-              <tr>
-              <td>HTML / CSS3</td>
-              <td>JavaScript</td>
-              <td>jQuery</td>
-              <td>Git</td>
-              </tr>
-              <tr>
-              <td>Ruby/Rails</td>
-              <td>SQLite</td>
-              <td>Sinatra</td>
-              <td>SEO</td>
-              </tr>
-              </table>
-
-<!--             <h5 id="jobs2"> HOLDer</h5>
-              <td>Howler.JS</td>
-              Adobe Creative Suite
-              - Spanish (Intermediate) -->
-            <h5 id="jobs2">Education</h5>
-              <div id="edu_div">
-              <p id="edu_info"><strong>New York Code & Design Academy</strong></p>
-                <li>Certificate of Completion, Junior Web Devloper</li>
-              <p id="edu_info"><strong>Temple University</strong></p>
-                <li>MBA, International Business</li>
-                <li>MS, Marketing Communications</li>
-              <p id="edu_info"><strong>Peirce College</strong></p>
-                <li>BS, Business Administration</li>
-              </div>
-
-              <button id="res_btn"><a href="images/CharmelSippio-PM.pdf">Resume</a></button>
-
+  <!-- about section -->
+      <span class="anchor" id="about"></span>
+        <div class="twelve columns">
+          <div class="five columns" id="about_sec"> 
+            <img id="headshot" src="images/headshot.jpg">
           </div>
 
           <div class="seven columns">
-            <h5 id="jobs">Compass</h5>
-            <p id="exp_info"><strong>Co-Project Leader | September 2015 – May 2016</strong><br>
+            <p id="section1">My name is Charmel Sippio a Philadelphia based digital project/product manager and junior web developer. I have a passion for creating beautiful, intuitive, and highly crafted solutions combining a considered approach with emerging technologies. I have wide ranging experience in consulting, communications, health care, and marketing that I can leverage to help any company develop client-focused digital solutions, from web and mobile design through to large scale interactive installations. My portfolio is a mix of work created independently and as part of various teams.</p>
+          </div>
+        </div>
+        <hr>
+        
+  <!-- projects section -->
+      <span class="anchor" id="projects"></span>
+        <div class="twelve columns" id="projs">
+          <div class="five columns" id="title"> 
+            <h3>Emoji Symphony</h3>
+          </div>
+
+          <div class="seven columns" id="content">
+            <p id="section2">
+              Emoji Symphony is a creative music application, in JavaScript, that records a user’s key inputs and transforms them into a song. The application is targeted at capturing the hearts and minds of the Twitter and BuzzFeed generation. Built using only JavaScript. Created with <a href="https://rohini315.github.io">Ro Rudrua</a>.</p>
+              <a href="https://emojisymphony.herokuapp.com/"><img id="prj_img" src="images/emoji_symphony.png"></a>
+            
+          </div>
+        </div>
+
+          <div class="twelve columns">
+            <div class="five columns" id="title"> 
+              <h3>Jukebox</h3>
+            </div>
+
+            <div class="seven columns" id="content">
+             <p id="section2">
+              This Jukebox was created to invoke nostalgia. It was built using only object-oriented JavaScriptand designed with an 80’s style boombox and has a built-in 90’s mixtape.</p>
+
+              <a href="https://charmelsippio.github.io/JS_Jukebox/"><img id="prj_img" src="images/jukebox.png"></a>
+              
+            </div>
+          </div>
+
+          <div class="twelve columns">
+            <div class="five columns" id="title"> 
+              <h3>Ladies HQ</h3>
+            </div>
+
+            <div class="seven columns" id="content">
+             <p id="section2">
+              Ladies HQ is a women-centric employment concept website focused on a holistic approach to career development and skill building using Ruby and Sinatra. Created with <a href="http://cendavis.com/">Camille Davis</a>.</p>
+
+              <a href="https://careerbuilder.herokuapp.com/"><img id="prj_img" src="images/ladies_hq.png"></a>
+              
+            </div>
+          </div>
+
+        <hr>
+
+  <!-- expereince section -->
+      <span class="anchor" id="experience"></span>
+        <div class="twelve columns" id="exp">
+          <div class="five columns" id="title"> 
+            <div id="edu_div">
+              <h5 id="jobs2">Programming</h5>
+                <table>
+                <tr>
+                <td>HTML / CSS3</td>
+                <td>JavaScript</td>
+                <td>jQuery</td>
+                <td>Git</td>
+                </tr>
+                <tr>
+                <td>Ruby/Rails</td>
+                <td>SQLite</td>
+                <td>Sinatra</td>
+                <td>SEO</td>
+                </tr>
+                </table>
+
+                <br>
+
+              <h5 id="jobs2">Education</h5>
+                <p id="edu_info"><strong>New York Code & Design Academy</strong></p>
+                  <li>Certificate of Completion, Junior Web Devloper</li>
+                <p id="edu_info"><strong>Temple University</strong></p>
+                  <li>MBA, International Business</li>
+                  <li>MS, Marketing Communications</li>
+                <p id="edu_info"><strong>Peirce College</strong></p>
+                  <li>BS, Business Administration</li>
+                  <br>
+                <button id="res_btn"><a href="images/CharmelSippio-PM.pdf">Resume</a></button>
+            </div>
+          </div>
+
+          <div class="seven columns" id="content">
+            <h5>Compass</h5>
+            <p id="section3">
+            <strong>Co-Project Leader | September 2015 – May 2016</strong><br>
             Facilitated discussion with client leadership to outline project scope, work plan and deadlines to establish accountability and project milestones to improve the client’s board effectiveness, board recruiting and program offerings for the elderly and their caretakers.  Provided leadership, management and oversight for a team of eight volunteers through a three phased project plan based on each team member’s specialty, capacity and development interests. Led weekly client and team strategy calls to communicate project progress, slippage, risks, and scope changes and ensure goal attainment.</p><br>
 
-            <h5 id="jobs3">Mercer</h5>
-            <p id="exp_info"><strong>Communications Consultant | September 2014 – October 2015</strong><br>
-            Oversaw client migration of hard-copy employee enrollment documentation onto a customized online employee benefits HRIS portal. Developed customized client employee benefits communication strategies, work plans and materials for targeted employee groups with Principal Consultants. Interfaced with clients and internal consulting teams to develop collateral i.e. brochures, annual enrollment plans, etc.</p>
+            <h5>Mercer</h5>
+            <p id="section3"><strong>Communications Consultant | September 2014 – October 2015</strong><br>
+            Oversaw client migration of hard-copy employee enrollment documentation onto a customized online employee benefits HRIS portal. Developed customized client employee benefits communication strategies, work plans and materials for targeted employee groups with Principal Consultants. Interfaced with clients and internal consulting teams to develop collateral i.e. brochures, annual enrollment plans, etc.</p><br>
 
-            <h5 id="jobs3">Cigna Global Health Benefits</h5>
-            <p id="exp_info"><strong>Marketing Consultant | June 2013 – August 2014</strong><br>
+            <h5>Cigna Global Health Benefits</h5>
+            <p id="section3"><strong>Marketing Consultant | June 2013 – August 2014</strong><br>
             Led multiple scoping, planning and change management meetings with a cross-functional web development and marketing team for multi-phased enhancements of CignaGlobalHealthBene ts.com to increase lead generation and inform external clients, customers, and brokers of Cigna offerings. Managed phase one of the project life cycle and timeline for the enhancement of CignaGlobalHealthBene ts.com with assistance from the global digital team and the Digital Center of Excellence. Partnered with the legal and compliance teams to develop multi-tiered communications plans to inform internal stakeholders, brokers and clients of PPACA regulation changes.<br><br>
 
             <strong>Senior Marketing Communications Associate | April 2013 – June 2013</strong><br>
@@ -123,39 +135,36 @@
           </div>
         </div>
 
-        <div name="contact" id="spacer3"><p> </p> </div>
+        <hr>
 
-        <div class="twelve columns" id="contact_panel">
-          <div class="five columns" id="contacts">
-            <h3 id="tags3">Contact</h3>
+  <!-- contact section -->
+      <span class="anchor" id="contact"></span>
+        <div name="contact" class="twelve columns" id="contact_me">
+          <div class="five columns" id="title"> 
+            <h3 id="contacts">Contact</h3>
           </div>
-          <div class="seven columns" id="contacts">
+
+          <div class="seven columns" id="content">
+
             <div id="contact_info">
+              <h6><strong>LinkedIn:</strong></h6>
+              <a href="https://www.linkedin.com/in/charmellsippio">Charmel Sippio</a>
+
+            <!-- <div id="contact_info"> -->
+              <h6><strong>Github</strong></h6>
+              <a href="https://github.com/Charmelsippio">Charmel Sippio</a>
+
+            <!-- <div id="contact_info"> -->
               <h6><strong>Email:</strong></h6>
               <a href="mailto:charmelsippio@gmail.com">charmelsippio@gmail.com</a>
             </div>
-
-            <div id="contact_info" id="contacts">
-              <h6><strong>LinkedIn:</strong></h6>
-              <a href="https://www.linkedin.com/in/charmellsippio">Charmel Sippio</a>
             </div>
-
           </div>
         </div>
 
 
-
-
-
-
-
-        
-      </div>
-  
-
-
-
-
-  </div> <!-- end of site background  -->
-</body>
+          
+      </div> <!-- row end -->
+    </div> <!-- wrapper end -->
+  </body>
 </html>
