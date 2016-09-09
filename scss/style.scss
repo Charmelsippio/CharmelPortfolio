@@ -10,6 +10,9 @@ body {
   visibility: hidden;
 }
 
+#top {
+  color: #222;
+}
 
 @mixin img_style {
   width: 50%;

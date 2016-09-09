@@ -9,6 +9,9 @@ body {
   /*same height as header*/
   visibility: hidden; }
 
+#top {
+  color: #222; }
+
 #welcome {
   border-top: 15px solid #9e005b;
   margin: 0 1%;
