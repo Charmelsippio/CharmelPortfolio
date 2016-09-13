@@ -145,7 +145,7 @@ li {
   margin-left: 30%;
   padding-top: 35%;
   padding-bottom: 30%;
-  padding-top: 15%;
+  padding-top: 20%;
   padding-bottom: 5%; }
 
 @media screen and (min-width: 400px) {
@@ -265,6 +265,7 @@ li {
       margin-left: 1%; }
 
   #contacts {
-    padding-bottom: 28%; } }
+    padding-top: 20%;
+    padding-bottom: 10%; } }
 
 /*# sourceMappingURL=style.css.map */
